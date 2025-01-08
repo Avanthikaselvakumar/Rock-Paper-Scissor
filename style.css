@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://cdn.vectorstock.com/i/500p/63/17/hands-in-fist-and-victory-symbol-vector-40556317.avif') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(8px);
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffeb3b; /* Bright yellow */
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.subheading {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Game Area */
+.game-area {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+    border: none;
+    border-radius: 15px;
+    width: 110px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+    text-transform: uppercase;
+}
+
+.btn span {
+    font-size: 50px;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    background: #ffe082; /* Soft golden glow */
+    color: #333;
+}
+
+.rock {
+    border: 3px solid #ff5252; /* Vibrant red */
+}
+
+.paper {
+    border: 3px solid #4caf50; /* Bright green */
+}
+
+.scissor {
+    border: 3px solid #2196f3; /* Vibrant blue */
+}
+
+/* Result Section */
+.result {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#resultText {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 15px 25px;
+    border-radius: 12px;
+    color: #333;
+    display: inline-block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
